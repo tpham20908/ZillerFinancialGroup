@@ -82,7 +82,7 @@ section h2 {
   text-align: center;
   background: #000080;
   padding: 8px;
-  margin-top: 0;
+  margin: 0 0 8px 0;
 }
 
 img[alt="Real Estate"] {
