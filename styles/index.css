@@ -94,6 +94,7 @@ img[alt="Real Estate"] {
 section p {
   text-indent: 12px;
   margin-top: 0;
+  font-size: 90%;
 }
 
 section:first-child p {
