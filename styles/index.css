@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*
+  CSS file for Ziller Financials Groups
+  Script date: Oct 10, 2017
+  Developed by: Tung Pham IPD12
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Styling container div*/
+#container {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  background: #efefef;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+/* Styling header with only child h1 */
+h1 {
+  background: #393939;
+  color: #fff;
+  margin: 0 0 12px 0;
+  padding: 12px;
+}
+
+/* Sticky top nav bar */
+header + nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+/* Styling nav bar */
+nav ul {
+  list-style: none;
+  text-align: center;
+  background: #7e7e7e;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 4px 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  background: #222;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+nav ul li a:hover {
+  color: #def;
+  background: #78d;
+  text-decoration: underline;
+}
+
+/* Styling 3 sections */
+section {
+  position: relative;
+  width: 33%;
+  border-right: 2.5px solid #add8e6;
+  float: left;
+  text-align: left;
+  padding: 8px;
+}
+
+section:last-child {
+  border: none;
+}
+
+section h2 {
+  color: #fff;
+  text-align: center;
+  background: #000080;
+  padding: 8px;
+  margin-top: 0;
+}
+
+img[alt="Real Estate"] {
+  float: left;
+  width: 65%;
+  margin: 4px 4px 4px 0;
+}
+
+section p {
+  text-indent: 12px;
+  margin-top: 0;
+}
+
+section:first-child p {
+  margin: 0;
+}
+
+section h3 {
+  margin: 0;
+}
+
+/* Styling footer */
+footer {
+  background: #7e7e7e;
+  padding-top: 2px;
+  clear: both;
+}
+footer p {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 8px auto;
+}
